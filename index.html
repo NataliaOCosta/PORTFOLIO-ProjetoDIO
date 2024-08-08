@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Natalia O Costa</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" 
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="/assets/css/header.css">
+    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/acordeon.css">
+    <link rel="stylesheet" href="/assets/css/languages.css">
+    <link rel="stylesheet" href="/assets/css/educação.css">
+    <link rel="stylesheet" href="/assets/css/skills.css">
+    <link rel="stylesheet" href="/assets/css/portfolio.css">
+    
+
+</head>
+<body>
+    <div class="main">
+        <header class="header">
+            <img src="assets/minha foto.jpg" alt="minha foto" class="photo">
+    
+            <h1 class="title"> Olá, <br> eu sou Natalia Costa</h1>
+    
+            <div class="information">
+
+                <p class="job" id="profile.job">Estudante de TI</p>
+                <p class="location" id="profile.location">Barueri - São Paulo</p>
+                <p class="phone" id="profile.phone">(11) 9 6116-3723</p>
+                <p class="email" id="profile.email">nat_ocosta@outlook.com </p>
+            </div>
+        </header>
+
+        <section class="acordeon open">
+            <button class="trigger" type="button">
+                <h2>Skills</h2>
+            </button>
+
+            <div class="content">
+                <div class="skills">
+                     <section class="personal">
+                        
+                        <ul id="profile.skills.softSkills">
+                            <li>Comunicação</li>
+                            <li>Comprometimento com resultados</li>
+                            <li>Organização</li>
+                            <li>Trabalho em equipe</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Idiomas</h2>
+            </button>
+
+            <div class="content">
+                <ul class="languages" id="profile.languages">
+                    <li>Português fluente</li>
+                    <li>Inglês avançado</li>
+                    <li>Espanhol básico</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Educação</h2>
+            </button>
+
+            <div class="content">
+                <ul class="Educação" id="profile.Educação">
+                    <li>Ensino Médio Técnico em Redes de Computadores (2014 - 2016)</li>
+                    <li>Técnologo Gestão em Tecnologia da Informação (2023 - 2025)</li>
+                    <li>Bootcamp Santander Cybersecurity - DIO</li>
+                    <li>Formação JavaScript Developer - DIO</li>
+                    <li>Elas na Tech - Front-End Development</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Portfólio</h2>
+            </button>
+
+            <div class="content">
+                <ul class="Portfolio" id="profile.Portfolio">
+                    <li>
+                        <span class="title">Conheça meu GitHub  </span>
+                        <a href="https://github.com/NataliaOCosta" target="_blank">https://github.com/NataliaOCosta</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        
+    </main>
+    </div>
+    <script src="/assets/acordeon.js"></script>
+    <script src="/assets/api.js"></script>
+    <script src="/assets/main.js"></script>
+    
+</body>
+</html>
